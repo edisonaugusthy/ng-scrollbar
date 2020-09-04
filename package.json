@@ -4,7 +4,12 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build ng-scrollbar --prod",
+    "watch": "ng build ng-scrollbar --watch",
+    "publish": "npm run package && cd dist/ng-scrollbar && npm publish",
+    "build_lib": "ng build ng-scrollbar --prod",
+    "npm_pack": "cd dist/ng-scrollbar && npm pack",
+    "package": "npm run build_lib && npm run npm_pack",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -38,6 +43,7 @@
     "karma-coverage-istanbul-reporter": "~3.0.2",
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "^1.5.0",
+    "ng-packagr": "^10.1.0",
     "protractor": "~7.0.0",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
