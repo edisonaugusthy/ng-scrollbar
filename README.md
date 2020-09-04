@@ -2,6 +2,9 @@
 
  A Custom scroll bar component in angular with customization options
 
+ see [Stackblitz Demo](https://ng-scroller.stackblitz.io/) here
+ Available in  [NPM](https://www.npmjs.com/package/ng-scroller)
+
 Angular compatibility
 | Angular Version        | package version |
 | ---------------------- | :-------------: |
@@ -9,7 +12,7 @@ Angular compatibility
 
 ## Usage steps
  - Run `npm i ng-scroller --save` in command prompt from root of your project folder
- - Add import to App Module like this `import { NgScrollbarModule } from 'ng-scrollbar';`
+ - Add import to App Module like this `import { NgScrollbarModule } from 'ng-scroller';`
  - Add to imports array in app module
 
   ```ts
