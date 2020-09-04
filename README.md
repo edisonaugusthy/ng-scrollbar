@@ -1,4 +1,6 @@
 # ng-scroller
+![NPM Publish](https://github.com/edisonaugusthy/ng-scrollbar/workflows/NPM%20Publish/badge.svg)
+![Node.js CI](https://github.com/edisonaugusthy/ng-scrollbar/workflows/Node.js%20CI/badge.svg)
 
  A Custom scroll bar component in angular with customization options
 
