@@ -1,4 +1,4 @@
-# ng7-storage
+# ng-scroller
 
  A Custom scroll bar component in angular with customization options
 
@@ -8,7 +8,7 @@ Angular compatibility
 | angular 2.x.x - 11.x.x | 0.0.1 and above |
 
 ## Usage steps
- - Run `npm i ng7-storage --save` in command prompt from root of your project folder
+ - Run `npm i ng-scroller --save` in command prompt from root of your project folder
  - Add import to App Module like this `import { NgScrollbarModule } from 'ng-scrollbar';`
  - Add to imports array in app module
 
