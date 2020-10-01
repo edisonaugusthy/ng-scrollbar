@@ -51,7 +51,7 @@ export class NgScrollbarComponent implements OnChanges, AfterViewInit {
   private progressBarContainer: any;
   private progressBar: any;
   private totalPageHeight: any;
-  private debounceResize;
+  private debounceResize: any;
   constructor() { }
 
   ngOnChanges(changes: { [propKey: string]: SimpleChange }) {
