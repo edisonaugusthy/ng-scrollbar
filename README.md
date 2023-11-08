@@ -1,5 +1,4 @@
 # ng-scroller
-![NPM Publish](https://github.com/edisonaugusthy/ng-scrollbar/workflows/NPM%20Publish/badge.svg)
 ![Node.js CI](https://github.com/edisonaugusthy/ng-scrollbar/workflows/Node.js%20CI/badge.svg)
 
  A Custom scroll bar component in angular with customization options
@@ -11,10 +10,11 @@ Angular compatibility
 | Angular Version        | package version |
 | ---------------------- | :-------------: |
 | angular 2.x.x - 11.x.x | 0.0.1 and above |
+| angular 11.x.x - 17.x.x | 0.0.4 and above |
 
 ## Usage steps
  - Run `npm i ng-scroller --save` in command prompt from root of your project folder
- - Add import to App Module like this `import { NgScrollbarModule } from 'ng-scroller';`
+
  - Add to imports array in app module
 
   ```ts
